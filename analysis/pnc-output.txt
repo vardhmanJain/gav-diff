@@ -1,0 +1,6 @@
+ARTIFACTS DOWNLOADED FROM PNC
+io.netty:netty-buffer:4.1.104.Final-redhat-00001
+io.netty:netty-parent:4.1.104.Final-redhat-00001
+io.netty:netty-common:4.1.104.Final-redhat-00001
+io.netty:netty-buffer:4.1.104.Final-redhat-00001
+io.netty:netty-common:4.1.104.Final-redhat-00001
