@@ -48,7 +48,7 @@ if [[ "$filter" = "OUT" ]]
 then
         rm gav-extracted-out.txt;
         touch gav-extracted-out.txt;
-        c=$(cat input.txt)
+        c=$(cat quarkus-bom-deps-to-build.txt)
         d=$(cat gav-extracted.txt)
         for x in $c
         do
