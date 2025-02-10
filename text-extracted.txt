@@ -1,12 +1,41 @@
-org.jdom:jdom2:2.0.6.1 # was rebuilt as 2.0.6.1-redhat-00001
-io.quarkus:quarkus-arc-test-supplement:3.8.5 # was rebuilt as 3.8.5.redhat-00004
-io.quarkus:quarkus-oidc-token-propagation-deployment:3.8.5 # was rebuilt as 3.8.5.redhat-00004
-io.quarkus:quarkus-oidc-token-propagation-reactive-deployment:3.8.5 # was rebuilt as 3.8.5.redhat-00004
-io.quarkus:quarkus-oidc-token-propagation-reactive:3.8.5 # was rebuilt as 3.8.5.redhat-00004
-io.quarkus:quarkus-oidc-token-propagation:3.8.5 # was rebuilt as 3.8.5.redhat-00004
-io.quarkus:quarkus-security-jpa-common:3.8.5 # was rebuilt as 3.8.5.redhat-00004
-io.quarkus:quarkus-security-jpa-deployment:3.8.5 # was rebuilt as 3.8.5.redhat-00004
-io.quarkus:quarkus-security-jpa:3.8.5 # was rebuilt as 3.8.5.redhat-00004
-jakarta.enterprise:jakarta.enterprise.lang-model:4.0.0 # was rebuilt as 4.0.0.redhat-00001
-org.jboss.invocation:jboss-invocation:2.0.0.Final # was rebuilt as 2.0.0.Final-redhat-00001
-io.vertx:vertx-auth-properties:4.5.7 # was rebuilt as 4.5.7.redhat-00002
+# Artifacts to be built from source from com.redhat.quarkus.platform:quarkus-bom:pom:3.15.2.redhat-00003:
+com.fasterxml.woodstox:woodstox-core:6.7.0
+jakarta.websocket:jakarta.websocket-client-api:2.1.0
+io.quarkus.http:quarkus-http-core:5.3.4
+io.quarkus.http:quarkus-http-http-core:5.3.4
+io.quarkus.http:quarkus-http-servlet:5.3.4
+io.quarkus.http:quarkus-http-vertx-backend:5.3.4
+io.quarkus.http:quarkus-http-websocket-core:5.3.4
+io.quarkus.http:quarkus-http-websocket-vertx:5.3.4
+com.google.protobuf:protoc:3.25.5
+com.github.package-url:packageurl-java:1.5.0
+io.mvnpm:importmap:1.0.11
+org.jboss.modules:jboss-modules:2.1.6.Final
+org.jboss.logmanager:jboss-logmanager:3.1.1.Final
+io.smallrye:jandex:3.2.3
+biz.aQute.bnd:biz.aQute.bnd.transform:6.3.1
+io.smallrye.reactive:smallrye-mutiny-vertx-amqp-client:3.16.0
+io.smallrye.reactive:smallrye-mutiny-vertx-auth-common:3.16.0
+io.smallrye.reactive:smallrye-mutiny-vertx-bridge-common:3.16.0
+io.smallrye.reactive:smallrye-mutiny-vertx-core:3.16.0
+io.smallrye.reactive:smallrye-mutiny-vertx-mail-client:3.16.0
+io.smallrye.reactive:smallrye-mutiny-vertx-mssql-client:3.16.0
+io.smallrye.reactive:smallrye-mutiny-vertx-mysql-client:3.16.0
+io.smallrye.reactive:smallrye-mutiny-vertx-oracle-client:3.16.0
+io.smallrye.reactive:smallrye-mutiny-vertx-pg-client:3.16.0
+io.smallrye.reactive:smallrye-mutiny-vertx-runtime:3.16.0
+io.smallrye.reactive:smallrye-mutiny-vertx-sql-client:3.16.0
+io.smallrye.reactive:smallrye-mutiny-vertx-uri-template:3.16.0
+io.smallrye.reactive:smallrye-mutiny-vertx-web-client:3.16.0
+io.smallrye.reactive:smallrye-mutiny-vertx-web-common:3.16.0
+io.smallrye.reactive:smallrye-mutiny-vertx-web:3.16.0
+io.smallrye.reactive:vertx-mutiny-generator:3.16.0
+org.commonmark:commonmark:0.22.0
+org.freemarker:freemarker:2.3.33
+io.grpc:protoc-gen-grpc-java:1.65.1
+io.vertx:vertx-http-proxy:4.5.11
+org.jdom:jdom2:2.0.6.1
+org.hibernate.orm:hibernate-core:6.6.3.Final
+org.hibernate.orm:hibernate-graalvm:6.6.3.Final
+org.codehaus.plexus:plexus-xml:4.0.1
+# Selecting all the managed and non-managed dependencies of supported extensions from com.redhat.quarkus.platform:quarkus-bom:pom:3.15.2.redhat-00003 will result in:

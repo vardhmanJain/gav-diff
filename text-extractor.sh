@@ -1,7 +1,7 @@
 echo "This script goes throught the input file line by line and filters the input according to the given regex"
 echo "Enter path to file with text: "
 read a
-echo "Enter regex to match a line, something like ^.*:.*:[0-9].*\..*manually"
+echo "Enter regex to match a line, something like ^.*:.*:[0-9].*\..*manually or ^.*:.*:.*\..*([0-9]|Final)"
 read match
 # match='^.*:.*:[0-9].*\..*manually'
 echo "do you want to filter 1. IN or 2. OUT"

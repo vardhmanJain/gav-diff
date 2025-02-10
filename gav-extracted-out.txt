@@ -1,13 +1,1 @@
-com.redhat.quarkus.platform:quarkus-bom:pom:3.8.5.redhat-00003:
-biz.aQute.bnd:biz.aQute.bnd.transform:6.3.1
-io.grpc:protoc-gen-grpc-java:1.59.1
-com.aayushatharva.brotli4j:native-osx-x86_64:1.16.0
-io.fabric8:maven-model-helper:36
-com.google.protobuf:protoc:3.25.0
-io.quarkus:quarkus-security-jpa-common-deployment:3.8.5
-io.agroal:agroal-api:2.4
-io.agroal:agroal-narayana:2.4
-io.agroal:agroal-pool:2.4
-org.jboss.narayana.jta:narayana-jta:7.0.2.Final
-org.jboss.narayana.jts:narayana-jts-integration:7.0.2.Final
-com.redhat.quarkus.platform:quarkus-bom:pom:3.8.5.redhat-00003
+

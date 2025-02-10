@@ -17,7 +17,7 @@
 #!/bin/bash
 rm ./analysis/brew-output.txt
 echo "ARTIFACTS DOWNLOADED FROM Brew" >> ./analysis/brew-output.txt
-for ARTIFACT_PATH in $(grep -Po '(?<=Downloading from brew: http://download.lab.bos.redhat.com/brewroot/repos/quarkus-3.8-maven-build/latest/maven/)[^ ]+' input.txt); do
+for ARTIFACT_PATH in $(grep -Po '(?<=Downloaded from brew: http://download.eng.bos.redhat.com/brewroot/repos/quarkus-3.8-maven-build/latest/maven/)[^ ]+' input.txt); do
     echo "ARTIFACT_PATH: ${ARTIFACT_PATH}"
 
     ARTIFACT_VERSION=$(basename $(dirname ${ARTIFACT_PATH}))

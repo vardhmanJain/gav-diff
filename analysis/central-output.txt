@@ -1,4 +1,1 @@
 ARTIFACTS DOWNLOADED FROM MAVEN CENTRAL
-org.apache.maven:maven:2.0
-org.apache.maven:maven:3.0.3
-io:netty:netty-tcnative-classes
