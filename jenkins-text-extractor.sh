@@ -22,7 +22,6 @@ touch text-extracted.txt
 while IFS= read -r line; do
     	if [[ "$line" =~ $match ]]
         then
-                echo "hello"
                 echo "$line" >> text-extracted.txt
         fi
 done < "$a"
@@ -36,7 +35,6 @@ for x in $b
 do
         if [[ "$x" =~ $gav ]]
         then
-                echo "bye"
                 echo "$x" >> gav-extracted.txt
         fi
 done
